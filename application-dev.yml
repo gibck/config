@@ -114,7 +114,7 @@ paascloud:
       accessKeyId: 'your aliyun accessKeyId'
       accessKeySecret: 'your aliyun accessKeySecret'
     rocketMq:
-      namesrvAddr: paascloud-mq-rocket:9876
+      namesrvAddr: 127.0.0.1:9876
     sms:
       signName: 快乐学习网
       regionId: cn-beijing
@@ -131,7 +131,7 @@ paascloud:
       publicHost: 'your qiniu oss public host'
   alipay:
     callback:
-      url: http://dev-api.paascloud.net/omc/pay/alipayCallback
+      url: http://127.0.0.1/omc/pay/alipayCallback
     qrCode:
       pcPath: /data/file/qrCode/alipay
       qiniuPath: alipay/QRCode/
